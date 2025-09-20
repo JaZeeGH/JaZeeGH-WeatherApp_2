@@ -20,7 +20,7 @@ A modern web application that lets users create personalized weather stations, r
 
 ## Overview
 
-WebDev2‑WeatherApp enables users to:
+The WeatherApp enables users to:
 
 *   Register and authenticate securely.
 *   Create multiple weather stations by specifying a name and geographic coordinates (latitude & longitude).
@@ -58,7 +58,7 @@ The UI adapts to mobile devices through a responsive navigation bar (hamburger m
 
 ## Installation & Setup
 
-`# Clone the repository git clone https://github.com/JaZeeGH/JaZeeGH-WeatherApp_2.git cd WebDev2-WeatherApp # Install dependencies npm install # Set environment variables (e.g., session secret, database URL) cp .env.example .env # Edit .env with your configuration # Run the development server npm start`
+`# Clone the repository git clone https://github.com/JaZeeGH/JaZeeGH-WeatherApp_2.git cd JaZeeGH-WeatherApp_2 # Install dependencies npm install # Set environment variables (e.g., session secret, database URL) cp .env.example .env # Edit .env with your configuration # Run the development server npm start`
 
 The app will be accessible at `http://localhost:4000`.
 
@@ -77,7 +77,7 @@ The app will be accessible at `http://localhost:4000`.
 
 ## Project Structure
 
-`WebDev2-WeatherApp/ ├─ src/ │  ├─ routes/          # Express route definitions │  ├─ views/           # Handlebars templates │  ├─ public/          # Static assets (CSS, JS, images) │  └─ models/          # Data models (if applicable) ├─ .env.example        # Example environment configuration ├─ package.json        # npm scripts and dependencies └─ README.md           # This document`
+`JaZeeGH-WeatherApp_2/ ├─ src/ │  ├─ routes/          # Express route definitions │  ├─ views/           # Handlebars templates │  ├─ public/          # Static assets (CSS, JS, images) │  └─ models/          # Data models (if applicable) ├─ .env.example        # Example environment configuration ├─ package.json        # npm scripts and dependencies └─ README.md           # This document`
 
 * * *
 
