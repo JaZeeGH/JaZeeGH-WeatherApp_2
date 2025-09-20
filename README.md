@@ -91,6 +91,5 @@ This project is licensed under the MIT License – see the `LICENSE` file fo
 
 *   Author: JaZeeGH
 *   GitHub: [https://github.com/JaZeeGH](https://github.com/JaZeeGH)
-*   Email: _(provide email if desired)_
 
 Feel free to open an issue or submit a pull request for any questions, suggestions, or improvements. Thank you for checking out JaZeeGH‑WeatherApp_2!
