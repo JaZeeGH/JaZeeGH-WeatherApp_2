@@ -52,16 +52,15 @@ The UI adapts to mobile devices through a responsive navigation bar (hamburger m
 
 ## Demo
 
-*   Live Application: [https://webdev2-weatherapp.onrender.com](https://webdev2-weatherapp.onrender.com/)
-*   Source Code: [https://github.com/JaZeeGH/WebDev2-WeatherApp](https://github.com/JaZeeGH/WebDev2-WeatherApp)
+*   Source Code: [https://github.com/JaZeeGH/JaZeeGH-WeatherApp_2](https://github.com/JaZeeGH/JaZeeGH-WeatherApp_2)
 
 * * *
 
 ## Installation & Setup
 
-`# Clone the repository git clone https://github.com/JaZeeGH/WebDev2-WeatherApp.git cd WebDev2-WeatherApp # Install dependencies npm install # Set environment variables (e.g., session secret, database URL) cp .env.example .env # Edit .env with your configuration # Run the development server npm start`
+`# Clone the repository git clone https://github.com/JaZeeGH/JaZeeGH-WeatherApp_2.git cd WebDev2-WeatherApp # Install dependencies npm install # Set environment variables (e.g., session secret, database URL) cp .env.example .env # Edit .env with your configuration # Run the development server npm start`
 
-The app will be accessible at `http://localhost:3000`.
+The app will be accessible at `http://localhost:4000`.
 
 * * *
 
