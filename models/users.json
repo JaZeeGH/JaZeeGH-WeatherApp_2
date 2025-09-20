@@ -1,0 +1,19 @@
+{
+  "file": "./models/users.json",
+  "users": [
+    {
+      "firstName": "Test",
+      "lastName": "Test",
+      "email": "test@test.ie",
+      "password": "Test",
+      "_id": "013055d5-f906-409b-9230-41615a52715d"
+    },
+    {
+      "firstName": "New",
+      "lastName": "Test",
+      "email": "new@new.ie",
+      "password": "New",
+      "_id": "6029d412-5ed2-4f58-a114-d65fcafd482d"
+    }
+  ]
+}

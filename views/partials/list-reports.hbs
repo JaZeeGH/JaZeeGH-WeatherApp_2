@@ -1,0 +1,39 @@
+<table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+    <thead>
+    <tr class="has-background-info">
+        <th>Date and Time</th>
+        <th>Code</th>
+        <th>Temperature</th>
+        <th>Wind Speed</th>
+        <th>Wind Direction</th>
+        <th>Pressure</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each station.reports}}
+        <tr>
+            <td>{{reportdate}}</td>
+            <td>
+                {{weathercode}}
+            </td>
+            <td>
+                {{temperature}}
+            </td>
+            <td>
+                {{windspeed}}
+            </td>
+            <td>
+                {{winddirection}}
+            </td>
+            <td>
+                {{pressure}}
+            </td>
+            <td>
+                <a href="/station/{{../station._id}}/deletereport/{{_id}}" class="button">
+                    {{>icons/delete}}
+                </a>
+            </td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

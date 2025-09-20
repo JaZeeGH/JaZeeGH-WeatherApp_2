@@ -1,0 +1,105 @@
+{
+  "file": "./models/reports.json",
+  "reports": [
+    {
+      "reportdate": "2025-08-09T14:49:50.470Z",
+      "weathercode": 200,
+      "temperature": 45,
+      "windspeed": 87,
+      "pressure": 1009,
+      "winddirection": "South",
+      "_id": "86f58f2e-93ec-4285-8b94-bfd0be19892f",
+      "stationid": "3ba3d141-89e6-45ef-a167-8cddeb20d213"
+    },
+    {
+      "reportdate": "2025-08-09T15:11:58.529Z",
+      "weathercode": 200,
+      "temperature": 23,
+      "windspeed": 45,
+      "pressure": 1003,
+      "winddirection": "Southeast",
+      "_id": "aa78b116-72be-4a8c-a851-f8cdacf9a2f9",
+      "stationid": "3ba3d141-89e6-45ef-a167-8cddeb20d213"
+    },
+    {
+      "reportdate": "2025-08-09T15:26:16.402Z",
+      "weathercode": 500,
+      "temperature": 23,
+      "windspeed": 45,
+      "pressure": 1003,
+      "winddirection": "Northeast",
+      "_id": "de454c7f-c16d-4a0e-afb4-7348b6291f17",
+      "stationid": "3ba3d141-89e6-45ef-a167-8cddeb20d213"
+    },
+    {
+      "reportdate": "Sat Aug 09 2025 17:31:17 GMT+0100 (Irish Standard Time)",
+      "weathercode": 200,
+      "temperature": 34,
+      "windspeed": 56,
+      "pressure": 56,
+      "winddirection": "Southwest",
+      "_id": "06dd083b-0303-484e-b30f-afd89733aaa7",
+      "stationid": "9454ec8b-be7e-4968-a126-d12ceba69f9d"
+    },
+    {
+      "reportdate": "Sat Aug 09 2025 17:45:55 GMT+0100 (Irish Standard Time)",
+      "weathercode": 800,
+      "temperature": 34,
+      "windspeed": 45,
+      "pressure": 1006,
+      "winddirection": "South",
+      "_id": "81c3f324-0d92-4786-91f8-9d123c344601",
+      "stationid": "9454ec8b-be7e-4968-a126-d12ceba69f9d"
+    },
+    {
+      "reportdate": "Sat Aug 09 2025 18:04:57 GMT+0100 (Irish Standard Time)",
+      "weathercode": 800,
+      "temperature": 34,
+      "windspeed": 23,
+      "pressure": 34,
+      "winddirection": "East",
+      "_id": "7814fdb7-3fac-47b6-92d4-f67cc84c3770",
+      "stationid": "9454ec8b-be7e-4968-a126-d12ceba69f9d"
+    },
+    {
+      "reportdate": "Sun Aug 17 2025 12:56:21 GMT+0100 (Irish Standard Time)",
+      "weathercode": 800,
+      "temperature": 12,
+      "windspeed": 45,
+      "pressure": 1001,
+      "winddirection": "Southeast",
+      "_id": "f524101f-8d9b-4796-a5d5-d822d650b1aa",
+      "stationid": "9454ec8b-be7e-4968-a126-d12ceba69f9d"
+    },
+    {
+      "reportdate": "Sun Aug 17 2025 14:35:48 GMT+0100 (Irish Standard Time)",
+      "weathercode": 311,
+      "temperature": 15,
+      "windspeed": 34,
+      "pressure": 56,
+      "winddirection": "North",
+      "_id": "98a5d00b-aac8-488a-a9f9-ab72a47dc84d",
+      "stationid": "8d70f01a-0882-4d7f-885e-0c78722a5ca6"
+    },
+    {
+      "reportdate": "Sun Aug 17 2025 14:40:40 GMT+0100 (Irish Standard Time)",
+      "weathercode": 803,
+      "temperature": 17,
+      "windspeed": 6.3,
+      "pressure": 1022,
+      "winddirection": "East",
+      "_id": "3f89deb7-15a0-4c06-8b1c-ba56a15fef8d",
+      "stationid": "9c6d6857-1797-4f54-b7e0-1ed4613c17d4"
+    },
+    {
+      "reportdate": "Sun Aug 17 2025 15:29:35 GMT+0100 (Irish Standard Time)",
+      "weathercode": 500,
+      "temperature": 10,
+      "windspeed": 7.9,
+      "pressure": 1015,
+      "winddirection": "Southwest",
+      "_id": "79df1df5-738f-43b3-b694-40ca66269c56",
+      "stationid": "bbcbe0b4-ca14-42e0-9153-81132674a80a"
+    }
+  ]
+}

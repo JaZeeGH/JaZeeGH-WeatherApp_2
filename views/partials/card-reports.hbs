@@ -1,0 +1,121 @@
+<div class="box is-fullwidth has-background-info">
+    <div class="columns">
+
+        <div class="column has-background-black has-text-white m-2">
+            <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <p class="title is-5 has-text-white">
+                            <strong>{{city}}</strong>
+                        </p>
+                        <p>
+                            Lat: {{latitude}}
+                            <br>
+                            Long: {{longitude}}
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="media-right">
+                    <figure class="image is-32x32">
+                        {{> icons/location}}
+                    </figure>
+                </div>
+            </article>
+        </div>
+
+        <div class="column has-background-black has-text-white m-2">
+            <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <p class="title is-5 has-text-white">
+                            <strong>Weather</strong>
+                        </p>
+                        <p>
+                            {{currentWeatherDescription}}
+                        </p>
+                    </div>
+                </div>
+                <div class="media-right">
+                    <figure class="image is-48x48">
+                        <img src="{{currentWeatherIcon}}" alt="Weather Icon">
+                    </figure>
+                </div>
+            </article>
+        </div>
+
+        <div class="column has-background-black has-text-white m-2">
+            <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <p class="title is-5 has-text-white">
+                            <strong>Temperature</strong>
+                        </p>
+                        <p>{{currentTemperature}} °C</p>
+                        <p>
+                            Max: {{maxTemperature.temperature}}
+                            <br>
+                            Min: {{minTemperature.temperature}}
+                        </p>
+
+                    </div>
+                </div>
+                <div class="media-right">
+                    <figure class="image is-32x32">
+                        <img>{{> icons/temperature}}</img>
+                    </figure>
+                </div>
+            </article>
+        </div>
+
+        <div class="column has-background-black has-text-white m-2">
+            <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <p class="title is-5 has-text-white">
+                            <strong>Wind</strong>
+                        </p>
+                        <p>
+                            {{currentWindspeed}} m/s
+                            <br>
+                            {{currentWinddirection}}
+                        </p>
+                        <p>
+                            Max: {{maxWindspeed.windspeed}}
+                            <br>
+                            Min: {{minWindspeed.windspeed}}
+                        </p>
+                    </div>
+                </div>
+                <div class="media-right">
+                    <figure class="image is-32x32">
+                        <img>{{> icons/wind}}</img>
+                    </figure>
+                </div>
+            </article>
+        </div>
+
+        <div class="column has-background-black has-text-white m-2">
+            <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <p class="title is-5 has-text-white">
+                            <strong>Pressure</strong>
+                        </p>
+                        <p>{{currentPressure}} hpa</p>
+                        <p>
+                            Max: {{maxPressure.pressure}}
+                            <br>
+                            Min: {{minPressure.pressure}}
+                        </p>
+                    </div>
+                </div>
+                <div class="media-right">
+                    <figure class="image is-32x32">
+                        <img>{{> icons/pressure}}</img>
+                    </figure>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>

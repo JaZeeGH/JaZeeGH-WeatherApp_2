@@ -1,0 +1,40 @@
+{
+  "file": "./models/stations.json",
+  "stations": [
+    {
+      "city": "Waterford",
+      "userid": "013055d5-f906-409b-9230-41615a52715d",
+      "latitude": "52.2573",
+      "longitude": "-7.1115",
+      "_id": "3ba3d141-89e6-45ef-a167-8cddeb20d213"
+    },
+    {
+      "city": "Cork City",
+      "latitude": "51.8985",
+      "longitude": "-8.4756",
+      "userid": "013055d5-f906-409b-9230-41615a52715d",
+      "_id": "9454ec8b-be7e-4968-a126-d12ceba69f9d"
+    },
+    {
+      "city": "Dungarvan",
+      "latitude": "52.088",
+      "longitude": "-7.625",
+      "userid": "013055d5-f906-409b-9230-41615a52715d",
+      "_id": "9c6d6857-1797-4f54-b7e0-1ed4613c17d4"
+    },
+    {
+      "city": "Test",
+      "latitude": "12.4567",
+      "longitude": "-5.6786",
+      "userid": "6029d412-5ed2-4f58-a114-d65fcafd482d",
+      "_id": "8d70f01a-0882-4d7f-885e-0c78722a5ca6"
+    },
+    {
+      "city": "Tromso",
+      "latitude": "69.650",
+      "longitude": "18.957",
+      "userid": "013055d5-f906-409b-9230-41615a52715d",
+      "_id": "bbcbe0b4-ca14-42e0-9153-81132674a80a"
+    }
+  ]
+}
